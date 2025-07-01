@@ -22,7 +22,6 @@ const Home = () => {
 
   const handleGetStarted = () => {
     navigate("/login")
-    console.log('Hello world');
   };
 
   const FloatingIcon = ({ icon: Icon, delay, position }) => (
