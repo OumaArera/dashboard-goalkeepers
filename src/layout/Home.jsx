@@ -85,7 +85,9 @@ const Home = () => {
                 </div>
                 <div className="text-center">
                   <h1 className="text-xl sm:text-2xl font-bold text-white">Goalkeepers Alliance</h1>
-                  <p className="text-emerald-300 text-sm font-medium mt-1">Data-Driven. Globally Connected. Keeper-Focused.</p>
+                  <p className="text-emerald-300 text-[10px] sm:text-xs md:text-sm font-medium mt-1 whitespace-nowrap md:whitespace-normal">
+                    Data-Driven. Globally Connected. Keeper-Focused.
+                  </p>
                 </div>
               </div>
             </div>
@@ -94,10 +96,10 @@ const Home = () => {
 
         {/* Main content area */}
         <main className="flex-1 flex items-center justify-center px-4 sm:px-6">
-          <div className="text-center max-w-5xl mx-auto">
+          <div className="text-center max-w-4xl mx-auto">
             {/* Hero heading */}
             <div className={`transform transition-all duration-1000 delay-300 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-              <h2 className="text-4xl sm:text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-green-400 mb-4 sm:mb-6 leading-tight">
+              <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-green-400 mb-4 sm:mb-6 leading-tight">
                 DEFEND
                 <br />
                 <span className="text-white drop-shadow-2xl">THE GOAL</span>
